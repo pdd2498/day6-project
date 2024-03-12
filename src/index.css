@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.priceFlex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priceValue{
+  text-align: start;
+}
+.twoParts{
+  width: 100vw;
+  display: flex;
+
+}
+.farstPart{
+  width: 50%;
+}
+.piechart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+      pink 70deg,
+      lightblue 0 360deg,
+      orange 0
+  );
+}
+.pie{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
